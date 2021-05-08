@@ -6,6 +6,7 @@ import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 
 public class ListMethods {
     public static void main(String[] args) {
@@ -20,6 +21,13 @@ public class ListMethods {
 
         dayNames.removeIf(day -> day.length() == 6);
         System.out.println("dayNames after removeIf = " + dayNames);
+
+        System.out.println(getRandomList(10));
+        List<Integer> nums = getRandomList(100);
+        System.out.println("nums.size() = " + nums.size());
+        System.out.println("nums = " + nums);
+        nums.removeIf(n -> n < 90); // remove nums less than 90
+        System.out.println("nums = " + nums);
     }
 
 
@@ -32,5 +40,17 @@ public class ListMethods {
         days.add("Friday"); days.add("Saturday"); days.add("Sunday");
         return days;
 
+    }
+    public static List <Integer> getRandomList(int size) {
+        Random random = new Random(); //new Random object with 0-100 limit
+        List<Integer> nums = new ArrayList<>();
+        for (int i = 1; i <= size; i++) {
+           // int n = random.nextInt(101);
+           // if (!nums.contains(n)) {
+              //  nums.add(n);
+          //  }
+            nums.add(random.nextInt(101)); //generate random number and add to list
+        }
+        return nums;
     }
 }
