@@ -19,6 +19,15 @@ public class InheritanceTest {
         t1.talk();
       t1.teach("java inheritance");
 
+      Student student = new Student();
+      student.name = "Ali";
+      student.age = 33;
+      student.walk();
+      student.talk();
+      student.work("java programmer");
+      student.school = "CybertekSchool";
+      student.study("java programing inheritance");
+
 
     }
 }
