@@ -81,4 +81,12 @@ public class StaticBlockDemo {
         num +=5;
 
     }
+    public StaticBlockDemo(int value){
+        System.out.println("Overloaded constructor - value = " + value);
+        num += value;
+    }
+    {//initializer block -> runs each time object created before constructor
+        System.out.println("Initializer block");
+
+    }
 }
