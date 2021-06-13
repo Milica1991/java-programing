@@ -27,6 +27,13 @@ public class CarObject {
         System.out.println("Count = " + ec2.getCount());//call static method using object
         System.out.println("Count = " + ElectricCar.getCount());//call static method using object Classname
 
+        Roadster roadster = new Roadster("Roadster", 200000, 2022, 620);
+        System.out.println(roadster.toString());
+        roadster.drive(1000);
+        roadster.drive(600);
+        System.out.println(roadster.getCount());
+
+
 
     }
 }
