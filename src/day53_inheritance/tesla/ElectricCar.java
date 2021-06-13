@@ -7,6 +7,26 @@ public class ElectricCar {
     private int year;
     private int range;
 
+    public ElectricCar(String make, String model, double price, int year, int range) {
+        setMake(make); //this.make = make: they are same, useful when setter has some condition
+        this.make = make;
+        this.model = model;
+        this.price = price;
+        this.year = year;
+        this.range = range;
+    }
+
+    @Override
+    public String toString() {
+        return "ElectricCar{" +
+                "make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", price=" + price +
+                ", year=" + year +
+                ", range=" + range +
+                '}';
+    }
+
     public int getRange() {
         return range;
     }
