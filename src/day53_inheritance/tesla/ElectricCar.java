@@ -8,7 +8,9 @@ public class ElectricCar {
     private int range;
     private static int count; //all object will share this variable
 
+
     public ElectricCar(String make, String model, double price, int year, int range) {
+
         setMake(make); //this.make = make: they are same, useful when setter has some condition
         this.make = make;
         this.model = model;
@@ -16,7 +18,11 @@ public class ElectricCar {
         this.year = year;
         this.range = range;
         count++; //increase count by 1 - everytime new car
+
+
+
     }
+
 
     public static int getCount() {
         return count;
