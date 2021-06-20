@@ -1,4 +1,5 @@
 package day55_abstraction.flegs;
+import javafx.animation.*;
 import javax.swing.*;
 import java.awt.*;
 

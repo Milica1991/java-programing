@@ -7,5 +7,10 @@ public class FlagDrawing {
         SerbianFlag serbianFlag = new SerbianFlag();
         serbianFlag.draw();
 
+        FrenchFlag frenchFlag = new FrenchFlag();
+        frenchFlag.draw();
+
+       UkraineFlag ukraineFlag = new UkraineFlag();
+       ukraineFlag.draw();
     }
 }
