@@ -1,4 +1,4 @@
-package day57_abstraction_polymotphisam_abstract_vs_interface;
+package day57_abstraction_polymorphism;
 
 public interface InterfaceA {
     public static final String TYPE = "interface";

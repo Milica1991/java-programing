@@ -1,4 +1,4 @@
-package day57_abstraction_polymotphisam_abstract_vs_interface;
+package day57_abstraction_polymorphism;
 
 public abstract class AbstractA {
     int num1;
