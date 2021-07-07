@@ -1,4 +1,4 @@
-package OfficeHourse_05_05_2021;
+package OfficeHourse2;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Arrays;

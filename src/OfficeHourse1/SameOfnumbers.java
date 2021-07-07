@@ -1,4 +1,4 @@
-package OfficeHourse_03_03_2021;
+package OfficeHourse1;
 
 public class SameOfnumbers {
     /*[Sum of Numbers from String]

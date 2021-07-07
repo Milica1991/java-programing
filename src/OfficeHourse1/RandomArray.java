@@ -1,4 +1,4 @@
-package OfficeHourse_03_03_2021;
+package OfficeHourse1;
 
 import java.util.Arrays;
 import java.util.Random;

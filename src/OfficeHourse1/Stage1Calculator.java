@@ -1,4 +1,4 @@
-package OfficeHourse_03_03_2021;
+package OfficeHourse1;
 
 public class Stage1Calculator {
     public static void main (String[] args) {
